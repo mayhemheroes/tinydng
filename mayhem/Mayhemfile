@@ -1,0 +1,6 @@
+project: tinydng
+target: tinydng-fuzz
+
+cmds:
+    - cmd: ./tinydng-fuzz
+      libfuzzer: true
